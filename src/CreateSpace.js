@@ -60,4 +60,5 @@ When('space is created through API call', async function(){
       .catch(error => console.error('Error:', error));
 })
 
-Then()
+Then('')
+
