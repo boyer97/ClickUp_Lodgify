@@ -3,7 +3,7 @@ import {Given, When, Then} from 'cypress-cucumber-preprocessor/steps';
 
 const API_TOKEN = 'pk_108011877_L9VNETT3ADPCVOBDSD4101Z5CHUAPF69';
 const TEAM_ID = '9011243745';
-const SPACE_NAME = 'Lodgify Challenge2';
+const SPACE_NAME = 'Lodgify Challenge';
 const EMAIL = "bbaranzabal@gmail.com";
 const PWD = "Lodgify_101"
 const LogInURL= "https://app.clickup.com/login";
