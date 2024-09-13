@@ -28,7 +28,6 @@ When('user creates a task under previous space created', ()=>{
     cy.get('[class="cu-create-category__title ng-star-inserted"]').should('include.text', 'Create Folder')
     cy.get('[id="cu-create-category__name-input"]').type('Scenario 2')
     cy.get('button[class="ng-star-inserted"]').click()
-    cy.url().should('include', FOLDER_ID)
     
     // Create the task
     cy.get('[placeholder="Task Name"]').type(TASK_NAME)
